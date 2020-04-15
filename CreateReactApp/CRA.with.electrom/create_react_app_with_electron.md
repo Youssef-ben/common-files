@@ -204,7 +204,7 @@ In the `public/index.html` add following in the `HTML head` tag:
 
 In the `package.json` add the following:
 
-```JSON
+```js
 {
     ...
 
@@ -300,7 +300,7 @@ yarn add Electron Builder Typescript --dev
 
 - Make sure that the field `homepage` is as follow:
 
-```json
+```js
 {
   ...
   "author":{
@@ -314,7 +314,7 @@ yarn add Electron Builder Typescript --dev
 
 - Add `Build` field and the `scripts to package` the app in the `Package.json` as follow:
 
-```json
+```js
 {
   ...
 
